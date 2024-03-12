@@ -47,3 +47,10 @@ while [ "$done_so_far" -lt "$total" ]; do
 done
 echo >&2
 ```
+
+Result:
+
+```text
+$ ./example.sh 
+[##########........................................] (20%) 8 left to complete
+```
